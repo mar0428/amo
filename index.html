@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css">
+  <!-- <script src="js/script.js" defer="defer" type="text/javascript"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js">
+
+  </script>
+
+</head>
+
+<body>
+
+  <div id="fullpage">
+
+    <div class="section" id="section0" >
+      <a href="#" class="cls">close</a>
+      <ul id="main_nav">
+        <li><a href="#">AMOMENTO 19S/S</a></li>
+        <li><a href="#">AMOMENTO 19SUMMER</a></li>
+        <li><a href="index2.html">SHOP</a></li>
+        <li><a href="#">DESIGNER</a></li>
+      </ul>
+    </div>
+
+
+    <div class="section" id="section1">
+      <a href="#" class="open">menu</a>
+      <h1>SHOP AMOMENTO</h1>
+      <img src="imgs/메인사람이미지.png" alt="">
+
+    </div>
+
+
+
+    <div class="section" id="section2">
+      <h2>NEW ARRIVALS</h2>
+      <div class="slide" data-anchor="slide1">
+        <a href="#"><img src="imgs/룩3.png" alt=""></a>
+      </div>
+      <div class="slide" data-anchor="slide2">Slide 2.2</div>
+
+
+
+      <!-- <div class="layer">
+				<h2>NEW ARRIVALS</h2>
+			</div> -->
+      <video id="myVideo" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="imgs/바다가밝다.mp4" type="video/mp4">
+      </video>
+
+    </div>
+
+    <div class="section" id="section3">
+      <h2>WEEKLY BEST</h2>
+      <div class="slide" data-anchor="slide1">
+        <a href="#"><img src="imgs/위클리1.png" alt=""></a>
+      </div>
+      <div class="slide" data-anchor="slide2">Slide 2.2</div>
+      <video id="myVideo2" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="imgs/바다가중간이다.mp4" type="video/mp4">
+      </video>
+
+
+    </div>
+
+
+    <div class="section" id="section4">
+      <div class="slide" data-anchor="slide1">
+        <h2>AMOMENTO</h2>
+        <div id="amo">
+          <p>FOUNDED IN 2014, AMOMENTO IS SLOTHING AND LIFESTYLE STORE BASED IN SEOUL. KOREA.</p>
+          <p>WE ALWAYS SEEK OUT TIMELESS CLASSIC, EFFORTLESS ELEGANCE WHEN WE DESIGN, SELECT ITEMS, FIND NEW BRANDS.</p>
+          <p>INFLUENCED BY THE FLOW OF CULTURE RATHER THAN THE TRENDS OF THE FASHIN INDUSTRY.</p>
+          <p>WE HOPE CUSTOMERS TO ENJOY AESTHETICS AND VALUES WE PURSUIT.</p>
+          <p>WE DO NOT REMEMBER DAYS, REMEMBER MOMENTS.</p>
+        </div>
+        <div id="address">
+          <p>4F 1 YULGOKRO JONGNOGU SEOUL SOUTH KOREA</p>
+          <p>+82 (0)2 6929 1384</p>
+          <p>OPENING HOURS 1:00 PM - 8:00 PM TUESDAY TO SATURDAY</p>
+        </div>
+
+      </div>
+      <video id="myVideo3" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="imgs/바다가밝다.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="section fp-auto-height" id="section5">
+
+      <ul id="footer_nav" >
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">CUSTOMER CARE</a></li>
+        <li><a href="#">INTERNATIONAL</a></li>
+        <li><a href="#">MEMBERSHIP</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+<script>
+  new fullpage('#fullpage', {
+    sectionsColor: ['#ffffff', '#ffffff', '', '', '', ''],
+  });
+
+// $(function({
+//   $(".cls").on("click",function(
+//     $("#section0").slideDown(1000,"linear",
+//   function(){
+//
+//   })
+//   ))
+// }))
+
+
+
+// 원래거
+
+  $(".open").on("click",function(){
+    $("#section0").fadeIn();
+    $(".cls").focus();
+    return false;
+  });
+  $(".cls").on("click",function(){
+    $("#section0").fadeOut();
+    $(".open").focus();
+    return false;
+  });
+</script>
+
+</html>

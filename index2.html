@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/sub.css" type="text/css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+  <div id="header_wrap">
+    <img src="imgs/야자잎1.png" alt="야자잎1">
+    <header id="header">
+      <h1><a href="index.html">AMOMENTO</a></h1>
+
+      <nav id="member">
+        <ul>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">JOIN</a></li>
+          <li><a href="#">MYPAGE</a></li>
+          <li><a href="#">ORDER</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <section id="container">
+    <div id="back_img">
+      <img class="yazas" src="imgs/야자수잎들1.png" alt="야자수잎들1">
+      <img class="deco1" src="imgs/데코1.png" alt="데코1">
+      <img class="yazas2"src="imgs/야자수잎들2.png" alt="야자수잎들2">
+      <img class="deco2" src="imgs/데코2.png" alt="데코2">
+    </div>
+    <div id="l_section">
+      <nav id="s_nav">
+        <ul>
+          <li><a href="index2.html">OUTWEARS</a></li>
+          <li><a href="#">TOPS</a></li>
+          <li><a href="#">BOTTOMS</a></li>
+          <li><a href="#">DRESSES</a></li>
+          <li><a href="#">SHOES</a></li>
+          <li><a href="#">BAGS</a></li>
+          <li><a href="#">SWIMWEARS</a></li>
+          <li><a href="#">UNDERWEAR</a></li>
+          <li><a href="#">ACCESSORIES</a></li>
+          <li><a href="#">HOMEWEAR</a></li>
+          <li class="sale"><a href="#">SALE</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="r_section">
+      <div id="content1">
+        <ul>
+          <h2 id="follow_txt">OUTWEARS</h2>
+          <li class="odd">
+            <a href="#"><img src="imgs/옷1.png" alt="옷1"></a>
+            <div class="additem">
+              <p>PALOMA WOOL</p>
+              <P>APOLLONIA</P>
+              <span>OUT OF STOCK</span>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/옷2.png" alt="옷2"></a>
+            <div class="additem">
+              <p>AMOMENTO</p>
+              <P>SHEER HOOD ZIP-UP (2COLORS)</P>
+              <span>169.000</span>
+            </div>
+          </li>
+          <li class="odd">
+            <a href="#"><img src="imgs/옷3.png" alt="옷3"></a>
+            <div class="additem">
+              <p>PALOMA WOOL</p>
+              <P>APOLLONIA</P>
+              <span>OUT OF STOCK</span>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/옷4.png" alt="옷4"></a>
+            <div class="additem">
+              <p>RACHEL COMEY</p>
+              <P>CHANCE JACKET</P>
+              <span>569,000</span>
+            </div>
+          </li>
+          <li class="odd">
+            <a href="#"><img src="imgs/옷5.png" alt="옷5"></a>
+            <div class="additem">
+              <p>LAUREN MANOOGIAN</p>
+              <P>RIB BOUCLE CARDIGAN</P>
+              <span>629,000</span>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/옷6.png" alt="옷6"></a>
+            <div class="additem">
+              <p>GIU GIU</p>
+              <P>NONNA STARTER JACKET</P>
+              <span>458,000</span>
+            </div>
+          </li>
+          <li class="odd">
+            <a href="#"><img src="imgs/옷7.png" alt="옷7"></a>
+            <div class="additem">
+              <p>AMOMENTO</p>
+              <P>HOODED ZIP-UP (2COLORS)</P>
+              <span>68,600</span>
+            </div>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/옷8.png" alt="옷8"></a>
+            <div class="additem">
+              <p>AMOMENTO</p>
+              <P>BELTED MANISH JACKET (2COLORS)</P>
+              <span>OUT OF STOCK</span>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script type="text/javascript">
+  var currentPosition = parseInt($("#s_nav").css("top")); $(window).scroll(function() { var position = $(window).scrollTop(); $("#s_nav").stop().animate({"top":position+currentPosition+"px"},1000); });
+  var currentPosition = parseInt($("#follow_txt").css("top")); $(window).scroll(function() { var position = $(window).scrollTop(); $("#follow_txt").stop().animate({"top":position+currentPosition+"px"},1000); });
+
+  </script>
+</body>
+
+</html>

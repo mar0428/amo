@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+body{
+position: relative;
+z-index: -1000;
+}
+#header_wrap{
+  height: 210px;
+  position: relative;
+  z-index: -1;
+}
+#header{
+  /* position: absolute; */
+  position: relative;
+  z-index: 100;
+  top: -150px;
+  margin: 0 auto;
+  width: 1829px;
+  height: 210px;
+  /* padding-top: 22px; */
+
+}
+#header h1{
+  font-size: 20px;
+  font-weight: normal;
+  float: left;
+
+}
+#header nav{
+  float: right;
+
+}
+#header nav ul li{
+  float: left;
+  padding-left: 54px;
+
+}
+#header nav ul li a{
+  font-size: 20px;
+  font-weight:normal;
+}
+#header_wrap img{
+  /* padding-top: 30px; */
+  position: relative;
+  left: 939px;
+  z-index: -100;
+}
+
+/* 콘텐츠 */
+#container{
+  position: relative;
+  width: 1829px;
+  height: 3000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* 백그라운드이미지 */
+#back_img{
+  position: absolute;
+  z-index: -1;
+}
+.yazas{
+  position: absolute;
+  left: 94px;
+}
+.deco1{
+  position: absolute;
+  left: 1002px;
+  top: 1200px;
+}
+.yazas2{
+  position: absolute;
+  left: 888px;
+  top: 2200px;
+}
+.deco2{
+  position: absolute;
+  left: 192px;
+  top: 3363px;
+}
+#l_section{
+  box-sizing: border-box;
+  float: left;
+  width: 209px;
+  height: 3000px;
+}
+#r_section{
+  box-sizing: border-box;
+  float: right;
+  width: 1500px;
+}
+#content1{
+  position: relative;
+  width: 1371px;
+}
+#content1 ul li{
+  float: left;
+  padding-bottom: 250px;
+}
+#content1>ul>h2{
+  position: absolute;
+  font-size: 40px;
+  left: 573px;
+}
+#s_nav{
+position: absolute;
+
+
+    width: 164px;
+    height: 449px;
+    background: url("../imgs/골드네비.png") no-repeat;
+}
+#follow_txt{
+  position: absolute;
+}
+#s_nav > ul{
+  padding-top: 10px;
+}
+.sale{
+  padding-top: 30px;
+}
+#s_nav ul li a{
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 6px 0;
+}
+.odd{
+  padding-right: 250px;
+}
+.additem{
+  position: relative;
+}
+.additem span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
